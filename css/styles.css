@@ -1,0 +1,76 @@
+
+
+body{
+  text-align: center;
+ 
+  
+}
+table
+{
+  margin: auto;
+}
+.font-h,.result
+{
+  
+  margin: 60px;
+  color: whitesmoke;
+  font-family:cursive;
+  font-size: 60px;
+  text-shadow:10px 0 black;
+  
+}
+.first{
+ 
+  display: inline-block;
+  margin-bottom: 60px;
+  
+}
+.second{
+  
+  display: inline-block;
+  margin-bottom: 60px;}
+img{
+  width:80%
+ 
+}
+p{
+  
+  font-family:  'Brush Script MT', cursive;
+  font-size: 35px;
+  
+  color: aliceblue;
+  ;
+}
+
+
+#A:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(0.5);
+
+}
+.rules{
+  text-align: left;
+  color: grey;
+    background-color: #2d2927;
+    border: none;
+  
+    padding: 16px 32px;
+   
+    font-size: 16px;
+    margin-top: 20px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  h3{
+    text-decoration: underline;
+  }
+  
+  .rules:hover {opacity: 1}
+.bg{
+  background-image: url("bgg.jpg") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100vh;
+}
