@@ -44,10 +44,8 @@ p{
 
 
 #A:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(0.5);
-
+ position: static;
+ animation: rotation 0.3s  infinite linear ;
 }
 .rules{
   text-align: left;
@@ -99,4 +97,17 @@ p{
   background-image: -o-linear-gradient(top, #009dff, #3498db);
   background-image: linear-gradient(to bottom, #009dff, #3498db);
   text-decoration: none;
+}
+@keyframes rotation{
+  from{
+    transform: rotatey(0deg);
+  }
+  to{
+    transform: rotatey(359deg);
+  }
+}
+.play{
+   position: static;
+    animation: rotation 0.3s  infinite linear ;
+ 
 }
