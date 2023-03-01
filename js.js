@@ -2,14 +2,14 @@ document.querySelector(".btn").addEventListener("click", dice)
 function dice() {
   var sound = new Audio('sound.mp3');
   sound.play();
-  document.querySelector("#A").classList.add("play");
+  document.querySelector(".I").classList.add("play");
   document.querySelector(".II").classList.add("play");
   var n = Math.random() * 6;
   n = Math.floor(n + 1);
   var ne = "images/dice" + n + ".png";
   document.querySelector("img").setAttribute("src", ne);
   setTimeout(function () {
-    document.querySelector("#A").classList.remove("play");
+    document.querySelector(".I").classList.remove("play");
     document.querySelector(".II").classList.remove("play");
   }, 200);
 
